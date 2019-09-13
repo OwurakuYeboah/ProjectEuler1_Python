@@ -12,9 +12,6 @@ for i in range(0, 1000):    # Loop through numbers below 1000
     #Add number to variable if it is a multiple of 5
     elif i % 5 == 0:
         eulerSolution = eulerSolution + i
-    #Removes duplicates; multiples of both 3 and 5 are added twice so this removes the duplicates
-    elif i % 3 and i % 5 == 0:
-        eulerSolution = eulerSolution - i
 
 #Print results
 print("PROJECT EULER PROBLEM 1 SOLUTION")
